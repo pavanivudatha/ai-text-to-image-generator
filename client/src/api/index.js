@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8080/api/",
+  baseURL: "https://ai-text-to-image-generator-9jd4.onrender.com",
 });
 
 export const GetPosts = async () => await API.get("/post/");
